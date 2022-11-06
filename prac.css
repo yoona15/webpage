@@ -1,0 +1,163 @@
+<style>
+        *{
+            font-family:"맑은고딕",Arial, Helvetica, sans-serif;
+            line-height: 150%;
+        }
+        header{
+            margin-bottom: 0px;
+            margin-top: 10px;
+            display: inline-flex;
+        }
+        .image{
+            margin-left: 550px;
+        }
+        body{
+            margin: 0 auto;
+            width: 80vw;
+            background-color: rgba(244, 244, 227, 0.447);
+        }
+        nav{
+            height: 50px;
+            display: inline;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        ul{
+            list-style-type: none;
+        }
+        nav ul{
+            border-top: 2px solid #546083;
+            border-bottom: 2px solid #546083;
+            padding: 10px 15px;
+            text-align: center;
+        }
+        nav ul li{
+            display: inline;
+            padding: 10px 50px;
+            letter-spacing: 5px;
+        }
+        nav ul li:hover {
+            color: white;
+            text-decoration-line: underline;
+            background-color: #546083;
+        }
+        section{
+            display: flex;
+        }
+        article{
+            flex: 4;
+        }
+        .media{
+            text-align: left;
+        }
+        section #href1{
+            display: inline;
+            width: 230px;
+            height: 280px;
+            border-color: whitesmoke;
+            line-height: 30px;
+            margin: 20px 100px 20px 20px;
+        }
+    
+        section table > h2{
+            width: 120px;
+            margin-bottom: 0px;
+        }
+        section th,#t1,#t2,#t3,#t4,#t5{
+            background-color: #546083;
+            color: white;
+        }
+        section #href1,#href3{
+            float: left;
+            margin-right: 100px;
+        }
+        section table{
+            border-color: white;
+            width: 500px;
+            height: 260px;
+            /*width: 50%;*/
+            margin-bottom: 20px;
+            font-size: 1.2em;
+        }
+        aside{
+            flex: 1;
+            margin-left: 90px;
+        }
+        aside table{
+            margin-top: 30px;
+            margin-left: 0px;
+            margin-bottom: 0px;
+            height: 200px;
+            width: 250px;
+            color: white;
+            border-color: white;
+            background-color: #546083e1;
+        }
+        aside #calendar #red1,#red2,#red3,#red4,#red5{
+            color: rgb(209, 4, 4);
+        }
+        aside caption{
+            color: #546083;
+        }
+        aside fieldset{
+            display: inline;
+            width: 230px;
+            height: 180px;
+            border-color: whitesmoke;
+            line-height: 30px;
+            margin-top: 20px;
+        }
+        aside #bm1{
+            font-size: large;
+        }
+        aside #bm1 a:hover{
+            color: #6E3B3B;
+        }
+        aside #bm1 a:active{
+            color: #6E3B3B;
+        }
+        aside #top{
+            margin-left: 150px;
+        }
+        aside #topbt{
+            width: auto;
+            height: 20px;
+        }
+        table{
+            text-align: center;
+        }
+        footer{
+            height: 50px;
+            font-size: 1.4em;
+            text-align: left;
+            background: #202944;
+            color: white;
+            padding: 20px;
+        }
+        #href2{
+            display: inline;
+            line-height: 30px;
+            margin-top: 0px;
+            width: 400px;
+            height: 280px;
+            border-color: whitesmoke;
+        }
+        #href2 #lc1{
+            margin-bottom: 0px ;
+        }
+        #href2 #j1{
+            margin: 0px;
+        }
+        #place_img1{
+            height: 700px;
+            width: 1370px;
+        }
+        #href4 #live1{
+            margin-bottom: 0px ;
+        }
+        #href4 #live2{
+            margin: 0px;
+        }
+    </style>
